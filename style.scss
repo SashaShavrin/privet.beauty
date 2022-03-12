@@ -1,7 +1,3 @@
-* {outline: 1px solid blueviolet;
-
-}
-
 @mixin breakpoint($point) {
         @if $point == lg {
             @media (max-width: 992px){@content;}  
@@ -37,7 +33,7 @@ body {
 }
 
 .main {
-    background-image: url(../img/head.jpg);
+    background-image: url(img/head.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -186,45 +182,6 @@ body {
     text-align: center;
 }
 
-.burger {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    position: relative;
-}
-
-.burger__line {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    transition: 0.3s all linear ;
-}
-
-.burger__line_first {
-    top: 0;
-}
-.burger__line_second, .burger__line_thrid {
-    top: 50%;
-    transform: translateY(-50%);
-}
-.burger__line_fourth {
-    bottom: 0;
-}
-
-.burger_active  .burger__line_first, .burger_active .burger__line_fourth {
-opacity: 0;
-}
-
-.burger_active .burger__line_second{
-    transform: translateY(-50%) rotate(45deg);
-}
-.burger_active .burger__line_thrid{
-    transform: translateY(-50%) rotate(-45deg);
-}
-
 .one {
     padding-top: 30%;
     margin-bottom: 60vh;
@@ -290,8 +247,6 @@ opacity: 0;
     flex-wrap: wrap-reverse;
     }
 }
-
-
 
 .text-double {
     font-size: 20px;
@@ -427,7 +382,7 @@ opacity: 0;
 }
 
 .five {
-    background-image: url(../img/head2.jpg);
+    background-image: url(img/head2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 116vh;
