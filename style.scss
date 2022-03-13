@@ -459,6 +459,7 @@ body {
     height: 40px;
     opacity: 0.5;
     cursor: pointer;
+    padding-right: 10px;
     @include breakpoint (sm) {
         height: 30px;
     }
