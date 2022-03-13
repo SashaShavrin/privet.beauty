@@ -43,7 +43,6 @@ body {
         box-shadow: none
     }
     @include breakpoint (sm) {
-        height: 700px;
         width: 100%;
         margin: auto;
         padding: 0;
