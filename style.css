@@ -30,7 +30,6 @@ body {
 
 @media (max-width: 576px) {
   .main {
-    height: 700px;
     width: 100%;
     margin: auto;
     padding: 0;
