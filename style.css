@@ -30,6 +30,7 @@ body {
 
 @media (max-width: 576px) {
   .main {
+    background-image: url(img/head-mobil.jpg);
     width: 100%;
     margin: auto;
     padding: 0;
@@ -555,6 +556,7 @@ body {
 
 @media (max-width: 576px) {
   .five {
+    background-image: url(img/head2-mobil.jpg);
     width: auto;
     height: 75vh;
   }
