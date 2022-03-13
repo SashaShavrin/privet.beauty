@@ -51,7 +51,7 @@ body {
 }
 
 .background {
-    background: radial-gradient(#000000, #a9a9a9);
+    background: radial-gradient(#8280ff, #a9a9a9);
     @include breakpoint (sm) {
       margin-top: -22%;
     }
