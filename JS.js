@@ -1,4 +1,4 @@
-            $(document).ready(function(){       
+                        $(document).ready(function(){       
                    var scroll_start = 0;
                    var startchange = $('.nav');
                    var offset = startchange.offset();
@@ -25,9 +25,7 @@
               prevScrollpos = currentScrollPos;
             }
             
-          
-
-
+      
             $(function () {
               $('.burger').on('click', function () {
                   $('.navbar-nav').slideToggle(0, function () {
@@ -38,7 +36,7 @@
                   $('.nav-link, .nav-link-a').on('click', function () {
                       $('.navbar-nav').hide(900, function(){
                           if ($(this).css('display') === 'none');
-                      });
+                      })
                   });
               });
               });     
